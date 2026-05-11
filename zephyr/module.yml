@@ -1,3 +1,5 @@
 build:
   settings:
     board_root: .
+  cmake: ../src
+  kconfig: ../src/Kconfig

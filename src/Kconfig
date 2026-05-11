@@ -1,0 +1,4 @@
+config CUSTOM_ANIMATION_WIDGET
+    bool "Custom animation widget for OLED"
+    default y
+    depends on ZMK_DISPLAY
